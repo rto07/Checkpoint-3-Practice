@@ -23,12 +23,13 @@
      	<script type = "text/babel">
      		class Greeting extends React.Component{
      			render(){
-     				<div>
-     					<h1>Hello World!</h1>
-     				</div>
-     			);
+				return(
+     					<div>
+     						<h1>Hello World!</h1>
+     					</div>
+     				);
+     			}
      		}
-     	}
 
      	ReactDOM.render(
      		<Greeting />, document.getElementById('app')
